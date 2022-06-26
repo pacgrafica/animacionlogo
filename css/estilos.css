@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.caja1 {
+    position: relative;
+    height: 35rem;
+    width: 100%;
+}
+
+#uno {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    animation-delay: 1;
+    animation-duration: .5s;
+}
+
+#dos {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    animation-delay: 1.5;
+    animation-duration: 1s;
+}
+
+#tres {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    animation-delay: 2;
+    animation-duration: 1.5s;
+}
+
+#cuatro {
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    animation-delay: 2.5;
+    animation-duration: 2s;
+}
+
+#cinco {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    animation-delay: 3;
+    animation-duration: 3s;
+}
+
+#seis {
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+    animation-delay: 3.5;
+    animation-duration: 4s;
+}
